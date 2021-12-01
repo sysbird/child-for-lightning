@@ -1,0 +1,77 @@
+/*
+Theme Name: Child for Lightning
+Theme URI:
+Description: Child for Lightning is a child theme for Lightning.
+Author: Sysbird
+Author URI: https://profiles.wordpress.org/sysbird
+Template:   lightning
+Version: 1.00
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: green, one-column, responsive-layout
+Text Domain:  child_for_lightning
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+/* Wrapper
+-------------------------------------------------------------- */
+body {
+  color: #666;
+}
+
+/* header
+--------------------------------------------- */
+.site-header,
+.header_scrolled .site-header {
+	background-color: rgb(158, 178, 185);
+}
+
+.site-header-logo {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.2rem;
+}
+
+.site-header-logo a,
+.nav li a, nav li a {
+	color: #FFF;
+}
+
+/* main
+-------------------------------------------------------------- */
+.main-section > .vk_post,
+.main-section > .vk_posts > .media.vk_post-col-sm-12:first-child,
+.vk_post.media {
+	border: none;
+}
+
+.main-section > .vk_posts .vk_post-btn-display.media .vk_post_body,
+.vk_post_imgOuter_singleTermLabel {
+	display: none;
+
+}
+
+.vk_posts .vk_post-col-lg-12 {
+	width: 33.33%;
+}
+
+.vk_post .media-img {
+	width: 100%;
+	border: none;
+}
+
+.main-section > .vk_posts > .media.vk_post-col-lg-12 .media-img {
+	margin-right: 0;
+}
+
+.vk_post.media {
+	margin: 0;
+}
+
+.main-section > .vk_posts > .media.vk_post-col-lg-12 {
+	padding: 10px;
+}
+
+.vk_post .vk_post_imgOuter::before {
+	padding-top: 100%;
+}
